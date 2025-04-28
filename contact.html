@@ -1,0 +1,163 @@
+<!--
+Tasks:
+📝 Page 3 — contact.html (Contact Form)
+
+Tasks:
+- <form> inside <main>, wrapped in <article>.
+- Proper <label for=""> and matching id attributes.
+- Required fields:
+  - Full Name (text, required, minlength=3)
+  - Email Address (email, required)
+  - Password (password, required, pattern=".{6,}")
+  - Age (number, min=13, max=120)
+  - Satisfaction (range, 0–10)
+  - Message (<textarea>, maxlength=500)
+  - Reason for Contact (<select>)
+  - How did you find me? (<datalist>)
+  - Preferred Contact Method (radio buttons: Email, Phone)
+  - Subscribe to (checkboxes: News, Events)
+- Submit button with value: "Send Message"
+- Add an HTML comment at the bottom.
+
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Personal Webspace</title>
+  </head>
+  <body>
+    <header>
+      <h1>Maka Coder</h1>
+      <p>Front-End Developer in Training</p>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <form>
+          <label for="fullName"> Enter your full name</label>
+          <input
+            type="text"
+            name="fullName"
+            id="fullName"
+            required
+            minlength="3"
+            placeholder="Jane Smith"
+          />
+          <br/>
+          <label for="email">Enter your email address</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="you@example.com"
+            required
+          />
+          <br />
+          <label for="password">Enter your password</label>
+          <input
+            type="password"
+            name="password"
+            id="password"
+            required
+            pattern=".{6,}"
+          />
+          <br />
+          <label for="age"> Enter your age </label>
+          <input type="number" name="age" id="age" min="13" max="120" />
+          <br />
+          <label for="satisfaction">
+            Rate your satisfaction with this page</label
+          >
+          <span>0</spans>
+          <input
+            type="range"
+            name="satisfaction"
+            id="satisfaction"
+            min="0"
+            max="10"
+          />
+             <span>10</spans>
+          <br />
+              
+          <label for="message">Enter your message</label>
+          <br />
+          <textarea
+            name="message"
+            id="message"
+            rows="10"
+            cols="50"
+            maxlength="500"
+            placeholder="Type your message here"
+          ></textarea>
+          <br />
+          <label for="reason"> Reason for contact</label>
+          <select name="reason" id="reason" required>
+            <option value="question">I have a question</option>
+            <option value="feedback">I have feedback</option>
+            <option value="project">I want to start a project</option>
+            <option value="other">Something else</option>
+          </select>
+          <br />
+          <label for="findMe">How did you find me? </label>
+          <input
+            list="findOptions"
+            name="findMe"
+            id="findMe"
+            placeholder="Where did you hear about me?"
+          />
+          <datalist id="findOptions">
+            <option value="Google"></option>
+            <option value="LinkedIn"></option>
+            <option value="Instagram"></option>
+            <option value="Word of mouth"></option>
+            <option value="Other"></option>
+          </datalist>
+
+          <fieldset style="width: 300px">
+            <legend>Preferred Contact Method</legend>
+            <label for="emailContact">Email</label>
+            <input
+              type="radio"
+              id="emailContact"
+              name="contactMethod"
+              value="email"
+            />
+            <br />
+
+            <label for="phoneContact"> Phone</label>
+            <input
+              type="radio"
+              id="phoneContact"
+              name="contactMethod"
+              value="phone"
+            />
+          </fieldset>
+          <fieldset style="width: 300px">
+            <legend>Subscribe to:</legend>
+            <label for="news">News</label>
+            <input type="checkbox" name="subscribe" id="news" value="news" />
+            <br />
+            <label for="events">Events</label>
+            <input
+              type="checkbox"
+              name="subscribe"
+              id="events"
+              value="events"
+            />
+          </fieldset>
+<br/>
+          <input type="submit" value="Send Message" />
+        </form>
+      </article>
+      <!--This is the end of the code of the contact page-->
+    </main>
+  </body>
+</html>
