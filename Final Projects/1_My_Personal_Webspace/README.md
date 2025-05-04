@@ -15,7 +15,7 @@ Your mission: Implement the HTML perfectly, using everything you’ve learned.
 
 -->
 
-# <!--
+<!--
 
 🧩 Concepts Covered
 
@@ -34,7 +34,7 @@ Your mission: Implement the HTML perfectly, using everything you’ve learned.
 
 -->
 
-# <!--
+<!--
 
 📁 Required Folder Structure
 
@@ -49,7 +49,7 @@ my-personal-webspace/
 ======================================================================================
 -->
 
-# <!--
+<!--
 
 📝 Page 1 — index.html (Homepage)
 
@@ -88,7 +88,7 @@ Tasks:
 - # Add an HTML comment at the bottom.
   -->
 
-# <!--
+<!--
 
 📝 Page 2 — portfolio.html (Projects)
 
@@ -113,7 +113,7 @@ Tasks:
 - # Add an HTML comment at the bottom.
   -->
 
-# <!--
+<!--
 
 📝 Page 3 — contact.html (Contact Form)
 
@@ -136,7 +136,7 @@ Tasks:
 - # Add an HTML comment at the bottom.
   -->
 
-# <!--
+<!--
 
 🧪 Final Touches
 
