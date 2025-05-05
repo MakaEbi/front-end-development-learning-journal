@@ -1,0 +1,60 @@
+/* ======================================
+🔸 ESERCIZIO 1: Applica margini diversi con quattro valori
+Nel tuo file HTML, crea un paragrafo con il testo: "Margini personalizzati su ogni lato".
+Imposta il bordo a 1 pixel, colore nero, stile solido.
+Applica un margine con quattro valori: 6 pixel sopra, 10 pixel a destra, 5 pixel sotto, 12 pixel a sinistra.
+Scrivi tutto in una sola riga CSS.
+====================================== */
+
+/* ======================================
+🔸 ESERCIZIO 2: Usa il margine shorthand con tre valori
+Crea un nuovo paragrafo sotto il primo.
+Scrivi: "Margine con tre valori".
+Imposta un bordo visibile.
+Applica un margine con tre valori: 5 pixel sopra, 12 pixel a destra e sinistra, 4 pixel sotto.
+Scrivi tutto in una sola riga.
+====================================== */
+
+/* ======================================
+🔸 ESERCIZIO 3: Usa il margine shorthand con due valori
+Crea un <div> sotto i paragrafi precedenti.
+Scrivi: "Margine sopra/sotto e sinistra/destra".
+Imposta un bordo visibile.
+Applica 20 pixel di margine sopra e sotto, 10 pixel a sinistra e destra.
+Usa solo due valori nella dichiarazione shorthand.
+====================================== */
+
+/* ======================================
+🔸 ESERCIZIO 4: Verifica visivamente l'effetto del margine
+Crea un <section> con un po' di testo.
+Applica margin: 10px 30px 15px 5px;
+Applica anche un colore di sfondo chiaro.
+Verifica che ogni lato abbia margini diversi.
+====================================== */
+
+/* ======================================
+🔸 ESERCIZIO 5: Crea spazio tra elementi usando margini
+Crea due <div> uno sotto l’altro.
+Applica un margine inferiore di 25 pixel al primo div usando shorthand.
+Non applicare margine al secondo.
+Controlla visivamente lo spazio creato tra i due.
+====================================== */
+.first {
+  border: 1px solid black;
+  margin: 6px 10px 5px 12px;
+}
+.second {
+  border: 2px solid black;
+  margin: 5px 12px 4px;
+}
+.third {
+  border: 2px solid black;
+  margin: 20px 10px;
+}
+.fifth {
+  margin: 10px 30px 15px 5px;
+  background-color: beige;
+}
+.sixth {
+  margin-bottom: 25px;
+}
