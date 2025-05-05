@@ -1,0 +1,66 @@
+/* ======================================
+🔸 ESERCIZIO 1: Crea un paragrafo con margine su tutti i lati
+Nel tuo file HTML, crea un elemento <p>.
+Scrivi dentro: "Paragrafo con margine".
+Imposta il bordo a 1 pixel, colore aquamarine, stile solido.
+Applica un margine di 20 pixel su tutti e quattro i lati usando una sola dichiarazione.
+====================================== */
+
+/* ======================================
+🔸 ESERCIZIO 2: Aggiungi un secondo paragrafo con margine solo a destra
+Sotto il primo paragrafo, crea un altro <p> con il testo: "Paragrafo con margine a destra".
+Imposta un bordo solido di 3 pixel con colore DarkSlateGrey.
+Applica solo il margine a destra con un valore di 15 pixel.
+Non usare margine su altri lati.
+====================================== */
+
+/* ======================================
+🔸 ESERCIZIO 3: Applica margini diversi su ogni lato
+Crea un <div> con il testo: "Margini personalizzati".
+Applica un bordo visibile.
+Imposta margin-top a 10 pixel, margin-right a 30 pixel, margin-bottom a 20 pixel e margin-left a 5 pixel.
+Non usare shorthand.
+====================================== */
+
+/* ======================================
+🔸 ESERCIZIO 4: Crea due paragrafi con margine che li separa
+Crea due <p> uno dopo l’altro.
+Imposta un bordo visibile su entrambi.
+Applica un margine inferiore di 25 pixel al primo paragrafo.
+Non applicare margine al secondo paragrafo.
+Verifica che ci sia spazio tra i due.
+====================================== */
+
+/* ======================================
+🔸 ESERCIZIO 5: Verifica effetto visivo del margine
+Crea un <section> con del testo.
+Imposta margine a 50 pixel su tutti i lati.
+Applica un colore di sfondo chiaro.
+Verifica visivamente che il margine separi l’elemento da tutto il resto.
+====================================== */
+.first {
+  border: 1px solid aquamarine;
+  margin: 20px;
+}
+.second {
+  border: 3px solid darkslategrey;
+  margin-right: 15px;
+}
+.third {
+  border: 1px solid blue;
+  margin-top: 10px;
+  margin-right: 30px;
+  margin-bottom: 20px;
+  margin-left: 5px;
+}
+.fourth,
+.fifth {
+  border: 2px solid black;
+}
+.fourth {
+  margin-bottom: 25px;
+}
+.sixth {
+  margin: 50px;
+  background-color: grey;
+}
