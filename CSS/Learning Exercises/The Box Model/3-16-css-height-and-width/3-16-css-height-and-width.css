@@ -1,0 +1,47 @@
+/* ======================================
+🔸 ESERCIZIO 1: Crea un paragrafo con altezza e larghezza specifiche
+Nel tuo file HTML, dentro il tag <body>, crea un elemento <p>.
+Scrivi il testo: "Paragrafo con dimensioni fisse".
+Imposta la larghezza del paragrafo a 240 pixel.
+Imposta l’altezza del paragrafo a 80 pixel.
+Usa l’attributo style per applicare le dimensioni.
+====================================== */
+
+/* ======================================
+🔸 ESERCIZIO 2: Aggiungi un secondo paragrafo senza dimensioni fisse
+Sotto il primo paragrafo, aggiungi un secondo <p>.
+Scrivi il testo: "Questo paragrafo si adatta al contenuto".
+Non impostare né larghezza né altezza.
+Confronta visivamente le dimensioni dei due paragrafi.
+====================================== */
+
+/* ======================================
+🔸 ESERCIZIO 3: Usa i pixel come unità di misura
+All’interno di un nuovo <div>, scrivi: "Box in pixel".
+Imposta la larghezza a 300 pixel e l’altezza a 100 pixel.
+Non usare percentuali, em o altre unità: usa solo pixel.
+====================================== */
+
+/* ======================================
+🔸 ESERCIZIO 4: Simula un overflow su dispositivi piccoli
+Crea un nuovo <div> dopo i paragrafi.
+Scrivi il testo: "Questo contenuto è molto largo".
+Imposta la larghezza del div a 1000 pixel.
+Apri il file su uno schermo piccolo e osserva il comportamento.
+====================================== */
+
+/*<!-- ======================================
+🔸 ESERCIZIO 5: Applica overflow hidden a un contenitore
+Prendi il <div> creato nell’esercizio precedente.
+Aggiungi la proprietà CSS overflow con valore "hidden".
+Verifica che il contenuto in eccesso venga nascosto.
+Non modificare il testo o la larghezza.
+====================================== -->*/
+.first {
+  width: 300px;
+  height: 100px;
+}
+.second {
+  width: 1000px;
+  overflow: hidden;
+}
