@@ -1,0 +1,56 @@
+/* ======================================
+🔸 ESERCIZIO 1: Crea due elementi con lo stesso contenuto
+Nel file HTML, crea due elementi <div> uno dopo l’altro, entrambi con il testo:
+“Box di esempio con padding e bordo”.
+Non applicare ancora alcuno stile CSS.
+====================================== */
+
+/* ======================================
+🔸 ESERCIZIO 2: Applica il modello di box predefinito al primo elemento
+Nel file CSS, seleziona solo il primo <div>.
+Imposta le seguenti proprietà:
+• larghezza: 250 pixel
+• altezza: 100 pixel
+• padding: 20 pixel su tutti i lati
+• bordo: 3 pixel solido, colore grigio (#999)
+• box-sizing: content-box
+Verifica che il box **cresca oltre** le dimensioni impostate.
+====================================== */
+
+/* ======================================
+🔸 ESERCIZIO 3: Applica il nuovo modello di box al secondo elemento
+Nel file CSS, seleziona solo il secondo <div>.
+Applica le stesse proprietà usate nel primo esercizio, **ma** imposta box-sizing su `border-box`.
+Verifica che l’elemento **non cresca oltre** le dimensioni dichiarate.
+====================================== */
+
+/* ======================================
+🔸 ESERCIZIO 4: Aggiungi colori di sfondo per confrontare visivamente
+Aggiungi un colore di sfondo diverso ai due elementi per evidenziare la differenza.
+• Al primo <div>: usa `lightblue`
+• Al secondo <div>: usa `lightgreen`
+Verifica visivamente che il secondo elemento occupi meno spazio esterno.
+====================================== */
+
+/* ======================================
+🔸 ESERCIZIO 5: Commenta il comportamento dei modelli di box
+Nel file HTML, dentro il tag <body>, aggiungi un commento esattamente così:
+ Nel box model predefinito (content-box), il bordo e il padding aumentano le dimensioni
+Non inserire altri elementi dentro il commento.
+====================================== */
+.first {
+  width: 250px;
+  height: 100px;
+  padding: 20px;
+  border: 3px solid #999;
+  box-sizing: content-box;
+  background-color: lightblue;
+}
+.second {
+  width: 250px;
+  height: 100px;
+  padding: 20px;
+  border: 3px solid #999;
+  box-sizing: border-box;
+  background-color: lightgreen;
+}
