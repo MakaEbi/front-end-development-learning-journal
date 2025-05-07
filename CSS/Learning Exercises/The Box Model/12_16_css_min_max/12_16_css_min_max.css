@@ -36,6 +36,7 @@ Verifica che il box rispetti i limiti durante il ridimensionamento.
 .first {
   min-width: 300px;
   max-width: 600px;
+  display: block;
 }
 .second {
   min-height: 150px;
@@ -44,7 +45,7 @@ Verifica che il box rispetti i limiti durante il ridimensionamento.
 .third {
   max-height: 50px;
 }
-div {
+#fourth {
   min-width: 250px;
   max-width: 500px;
   min-height: 100px;

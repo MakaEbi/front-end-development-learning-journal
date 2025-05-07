@@ -1,0 +1,55 @@
+/* ======================================
+🔸 ESERCIZIO 1: Crea un contenitore con contenuto troppo grande
+Crea un elemento <div> con un'altezza di 100 pixel.
+Inserisci dentro il <div> un paragrafo con molto testo, in modo che superi l’altezza.
+Non aggiungere ancora overflow.
+====================================== */
+
+/* ======================================
+🔸 ESERCIZIO 2: Nascondi il contenuto che esce
+Nel <div> creato prima, imposta la proprietà overflow per nascondere tutto il contenuto che esce dal box.
+Usa il valore corretto per farlo.
+====================================== */
+
+/* ======================================
+🔸 ESERCIZIO 3: Aggiungi una barra di scorrimento
+Sullo stesso <div>, cambia il valore di overflow per mostrare una barra di scorrimento quando il contenuto è troppo grande.
+Verifica che la barra appaia.
+====================================== */
+
+/* ======================================
+🔸 ESERCIZIO 4: Applica overflow solo in una direzione
+Crea un nuovo <div> con una larghezza di 200 pixel e un'altezza di 100 pixel.
+Inserisci un contenuto che sia largo più di 200 pixel.
+Imposta overflow solo sull’asse orizzontale per mostrare la barra di scorrimento.
+====================================== */
+
+/* ======================================
+🔸 ESERCIZIO 5: Calcola le dimensioni totali del box
+Crea un'immagine con:
+• larghezza: 300 pixel
+• altezza: 200 pixel
+• padding: 10 pixel su tutti i lati
+• bordo: 2 pixel su tutti i lati
+• margine: 20 pixel a sinistra e destra, 10 pixel in alto e in basso
+Calcola la larghezza e l’altezza totali del box e scrivile come commento nel codice.
+====================================== */
+.first {
+  height: 100px;
+  overflow: hidden;
+}
+.second {
+  width: 200px;
+  height: 100px;
+  overflow-x: auto;
+}
+img {
+  width: 300px;
+  height: 200px;
+  padding: 10px;
+  border: 2px solid black;
+  margin: 10px 20px;
+}
+
+/* la larghezza = width 300 px + padding 2x10px + border 2x2px + margin 2x20px = 300+20+4+40=364 px
+l’altezza = height 200px + padding 2x10px + border 2x2px + margin 2x10px = 200+20+4+20=244 px */
