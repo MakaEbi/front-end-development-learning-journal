@@ -43,13 +43,14 @@ Osserva che l’elemento non diventa un cerchio perfetto.
   border-radius: 5px;
 }
 #second_div {
-  border: 3px soid blue;
+  border: 3px solid blue;
   border-radius: 20px;
 }
 #third_div {
   width: 60px;
   height: 60px;
   border-radius: 50%;
+  border: 3px solid blue;
 }
 #fourth_div {
   width: 100px;
