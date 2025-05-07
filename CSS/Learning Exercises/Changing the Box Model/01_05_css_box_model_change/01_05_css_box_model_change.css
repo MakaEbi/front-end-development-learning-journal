@@ -11,12 +11,7 @@ Nel file CSS, applica all’elemento <h1> le seguenti regole:
 
 Guarda come il riquadro appare più grande delle dimensioni impostate, a causa del padding e del bordo.
 ====================================== */
-h1 {
-  width: 300px;
-  height: 200px;
-  border: 1px solid black;
-  padding: 10px;
-}
+
 /* ======================================
 🔸 ESERCIZIO 2: Calcola la dimensione reale della casella
 Subito sotto l’elemento <h1>, scrivi un commento HTML con questo testo:
@@ -54,3 +49,18 @@ Nel CSS, scrivi una regola che selezioni tutti gli elementi <h1> e imposti:
 - il font a sans-serif
 - l’allineamento del testo al centro
 ====================================== */
+.first {
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.second {
+  width: 322px;
+  height: 222px;
+}
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+}
