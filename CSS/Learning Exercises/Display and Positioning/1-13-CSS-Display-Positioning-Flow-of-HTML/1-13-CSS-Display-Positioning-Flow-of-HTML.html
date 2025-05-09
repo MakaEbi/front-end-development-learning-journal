@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>1.13 CSS • Display, Positioning e Flusso di HTML</title>
+    <style>
+      header {
+        position: absolute;
+        top: 10px;
+        left: 15px;
+      }
+      section {
+        display: inline-block;
+        width: 300px;
+      }
+      section:first-of-type {
+        float: left;
+      }
+      section:last-of-type {
+        float: right;
+      }
+      div {
+        clear: both;
+      }
+      footer {
+        z-index: 5;
+        position: relative;
+        margin: 0 auto;
+        width: fit-content;
+      }
+    </style>
+  </head>
+  <body>
+    <header>Intestazione Principale</header>
+    <section>Sezione Sinistra</section>
+    <section>Sezione Destra</section>
+    <div>Contenuto centrale</div>
+    <footer>© 2025 Sito Web</footer>
+  </body>
+</html>
